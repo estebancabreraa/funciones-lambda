@@ -36,44 +36,44 @@ while not exit:
             second_option = input('Escoja la funcion f: ')
             x = int(input('Ingrese el valor de x: '))
             if second_option == '1':
-                c = cero(alpha, x)
-                print('\nResultado: ' + str(c(alpha, x)))
+                res = cero(alpha, x)
+                print('\nResultado: ' + str(res))
             elif second_option == '2':
-                c = cero(beta, x)
-                print('\nResultado: ' + str(c(beta, x)))
+                res = cero(beta, x)
+                print('\nResultado: ' + str(res))
         if option == '2':
             print('Uno(f, x)')
             print(functions)
             second_option = input('Escoja la funcion f: ')
             x = int(input('Ingrese el valor de x: '))
             if second_option == '1':
-                u = uno(alpha, x)
-                print('\nResultado: ' + str(u(alpha, x)))
+                res = uno(alpha, x)
+                print('\nResultado: ' + str(res))
             elif second_option == '2':
-                u = uno(beta, x)
-                print('\nResultado: ' + str(u(beta, x)))
+                res = uno(beta, x)
+                print('\nResultado: ' + str(res))
         if option == '3':
             print('Dos(f, x)')
             print(functions)
             second_option = input('Escoja la funcion f: ')
             x = int(input('Ingrese el valor de x: '))
             if second_option == '1':
-                d = dos(alpha, x)
-                print('\nResultado: ' + str(d(alpha, x)))
+                res = dos(alpha, x)
+                print('\nResultado: ' + str(res))
             elif second_option == '2':
-                d = dos(beta, x)
-                print('\nResultado: ' + str(d(beta, x)))
+                res = dos(beta, x)
+                print('\nResultado: ' + str(res))
         if option == '4':
             print('Tres(f, x)')
             print(functions)
             second_option = input('Escoja la funcion f: ')
             x = int(input('Ingrese el valor de x: '))
             if second_option == '1':
-                t = tres(alpha, x)
-                print('\nResultado: ' + str(t(alpha, x)))
+                res = tres(alpha, x)
+                print('\nResultado: ' + str(res))
             elif second_option == '2':
-                t = tres(beta, x)
-                print('\nResultado: ' + str(t(beta, x)))
+                res = tres(beta, x)
+                print('\nResultado: ' + str(res))
     except:
         print('Revise los valores ingresados.')
 
